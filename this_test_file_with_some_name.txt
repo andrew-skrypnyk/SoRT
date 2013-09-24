@@ -1,1 +1,0 @@
-NSLog(@"Some Text %@",@"lalka_test");
