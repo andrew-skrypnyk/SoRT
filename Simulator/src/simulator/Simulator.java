@@ -38,6 +38,7 @@ public class Simulator {
             float length = (int)(Math.random() * 200)+1;
             
             map.addObject((int)x, (int)y, (int)width, (int)height, (int)length);
+            
             objectMap[i][0] = x / 100;
             objectMap[i][1] = y / 100;
             objectMap[i][2] = width / 100;
